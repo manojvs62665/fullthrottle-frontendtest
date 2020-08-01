@@ -36,6 +36,7 @@ export default class Members extends Component {
                   {Data.members[0].activity_periods.map((period, id) => {
                     return (
                       <Col key={id}>
+                        start_time={period.start_time}
                         <ActivePeriodModal
                           show={this.state.activity_modal === user.id}
                           onHide={this.activityPeriods}
