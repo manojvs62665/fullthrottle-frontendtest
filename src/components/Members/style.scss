@@ -1,0 +1,51 @@
+@import "../../assets/fonts.scss";
+
+.members_details {
+  margin: 60px 0;
+  .user_detail {
+    border: 1px solid $header-color;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  p {
+    margin: 0 20px;
+    color: $header-color;
+  }
+  a {
+    text-decoration: none;
+    color: #f71735;
+  }
+  a:hover {
+    color: $header-color;
+  }
+}
+.modal {
+  top: 60px !important;
+  .user_name {
+    padding: 30px 0 0 0;
+    color: #4c5462;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    margin: 0 auto;
+    color: #4c5462;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $raleway-fontfamily;
+  }
+  .modal-header {
+    .close {
+      margin: -1rem -1rem -1rem 0;
+      padding: 8px;
+    }
+  }
+  .modal-body {
+    margin: 2% auto 20% auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../assets/fonts.scss";
+
+.home_page {
+  h2 {
+    font-family: $raleway-fontfamily;
+    font-size: $header-fontsize;
+    color: $header-color;
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 700;
+  }
+  img {
+    margin: 20px 0 0 0;
+  }
+}
